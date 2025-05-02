@@ -32,6 +32,7 @@ const App: React.FC = () => {
 
   return (
     <div>
+      <div> Olga site name </div>
       <NavBar user={!!user} /> {/* Pass user state to NavBar */}
 
       {user ? (
